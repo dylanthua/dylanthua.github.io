@@ -14,12 +14,10 @@ $(document).ready(function()
         content: {
             attr: 'alt' // Use the ALT attribute of the area map for the content
         },
-        style: {
-            classes: 'ui-tooltip-tipsy ui-tooltip-shadow tool-tip-size'
-
-        },
+        
         position: {
-            target: 'mouse'
+            my: 'top center',
+            at: 'center'
         }
     });
 });
