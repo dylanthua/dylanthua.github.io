@@ -21,8 +21,8 @@ $(document).ready(function()
             $("#harvestCrops").append("No crops for harvests!<br><br>");
           }
 
-          $("#targetModal").empty();
-          $("#targetModal").append(targetName);
+          $("#modalLabel").empty();
+          $("#modalLabel").append(targetName);
 
           $("#listOfNames").empty();
           var someoneAround = false;
@@ -50,6 +50,6 @@ $(document).ready(function()
         toBePushed.Date = newDate;
         toBePushed.Time = newTime;
         calendarVar.signups.push(toBePushed);
-        
+
     });
 });
