@@ -3,7 +3,7 @@ var text = '{ "bulletins" : [' +
 
 var bulletinsVar = JSON.parse(text);
 
-var userAuthorized = false;
+var userAuthorized = true;
 
 $(document).ready(function(){
     for (var i=bulletinsVar.bulletins.length-1; i >= 0; i--) {
@@ -18,7 +18,7 @@ $(document).ready(function(){
     }
 
     $('#addBulletin').click(function(e) {
-        if (userAuthorized) {
+        if (userAuthorized == true) {
             var newTitle = document.getElementById("newBulletinTitle").value;
             var newBody = document.getElementById("newBulletinBody").value;
             var toBePushed = new Object();
@@ -40,7 +40,7 @@ $(document).ready(function(){
                 </div>");
             }
         } else {
-            
+            window.alert("Error! You do not have permission to create bulletin posts. Ask the lead gardener to grant you permission.");
         }
         
     });
