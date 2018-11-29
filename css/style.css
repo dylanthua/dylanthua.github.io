@@ -265,14 +265,13 @@ body {font-family: Verdana, sans-serif;}
 
 .days li .active1 {
     padding: 5px;
-    background: #1a8f16;
-    color: white !important
+    border-color: rgb(0, 182, 9);
+    border-style: solid;
 }
 
 .days li .active2 {
     padding: 5px;
-    background: #16698f;
-    color: white !important
+    background: #62cdff;
 }
 
 .days li .active3 {
@@ -286,3 +285,11 @@ body {font-family: Verdana, sans-serif;}
     display: inline-block;
     line-height: 20px;
 }
+
+.btn-lg {
+    font-size: 40px;
+    width: 10%;
+    padding: 20px;
+}
+
+button.link { background:none;border:none; }

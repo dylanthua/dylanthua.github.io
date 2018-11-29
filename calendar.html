@@ -41,38 +41,67 @@
                   </ul>
                   
                   <ul class="days" id="calendarDays"> 
-                    <li id="day1">1</li>
-                    <li id="day2">2</li>
-                    <li id="day3">3</li>
-                    <li id="day4">4</li>
-                    <li id="day5">5</li>
-                    <li id="day6">6</li>
-                    <li id="day7">7</li>
-                    <li id="day8">8</li>
-                    <li id="day9">9</li>
-                    <li id="day10"><span class="active1">10</span></li>
-                    <li id="day11">11</li>
-                    <li id="day12">12</li>
-                    <li id="day13">13</li>
-                    <li id="day14">14</li>
-                    <li id="day15">15</li>
-                    <li id="day16">16</li>
-                    <li id="day17">17</li>
-                    <li id="day18">18</li>
-                    <li id="day19">19</li>
-                    <li id="day20">20</li>
-                    <li id="day21">21</li>
-                    <li id="day22">22</li>
-                    <li id="day23">23</li>
-                    <li id="day24">24</li>
-                    <li id="day25">25</li>
-                    <li id="day26">26</li>
-                    <li id="day27">27</li>
-                    <li id="day28">28</li>
-                    <li id="day29">29</li>
-                    <li id="day30">30</li>
-                    <li id="day31">31</li>
+                    <li id="day" name="1">1</li>
+                    <li id="day" name="2">2</li>
+                    <li id="day" name="3">3</li>
+                    <li id="day" name="4">4</li>
+                    <li id="day" name="5">5</li>
+                    <li id="day" name="6">6</li>
+                    <li id="day" name="7">7</li>
+                    <li id="day" name="8">8</li>
+                    <li id="day" name="9">9</li>
+                    <li id="day" name="10"><span class="active2">10</span></li>
+                    <li id="day" name="11">11</li>
+                    <li id="day" name="12">12</li>
+                    <li id="day" name="13">13</li>
+                    <li id="day" name="14">14</li>
+                    <li id="day" name="15">15</li>
+                    <li id="day" name="16">16</li>
+                    <li id="day" name="17"><span class="active2 active1">17</span></li>
+                    <li id="day" name="18">18</li>
+                    <li id="day" name="19">19</li>
+                    <li id="day" name="20">20</li>
+                    <li id="day" name="21">21</li>
+                    <li id="day" name="22">22</li>
+                    <li id="day" name="23">23</li>
+                    <li id="day" name="24">24</li>
+                    <li id="day" name="25">25</li>
+                    <li id="day" name="26">26</li>
+                    <li id="day" name="27">27</li>
+                    <li id="day" name="28">28</li>
+                    <li id="day" name="29">29</li>
+                    <li id="day" name="30">30</li>
+                    <li id="day" name="31">31</li>
                   </ul>
+                  <br>
+                  <div>
+                      Legend:<br>
+                      Green border is current day.<br>
+                      Blue is harvest day for a crop.
+                  </div>
+
+                  <!-- Modal -->
+            <div class="modal fade" id="inputModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Create New Bulletin</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <input id="newBulletinTitle" type="text" style="width:100%" placeholder="Title">
+                    <br\>
+                    <textarea id="newBulletinBody" style="width:100%; height:300px" placeholder="Body"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button id="addBulletin" type="button" class="btn btn-success" data-dismiss="modal">Add Bulletin</button>
+                </div>
+                </div>
+                </div>
+            </div>
 
                   <nav class="navbar fixed-bottom nav-bar-custom">
                         <a href="map.html">
@@ -82,7 +111,7 @@
                             <h4>Calendar</h4>
                         </a>
                         <a href="database.html">
-                            <h4>Database</h4>
+                            <h4>Encyclopedia</h4>
                         </a>
                         <a href="bulletin.html">
                             <h4>Bulletin</h4>

@@ -1,6 +1,6 @@
-var sectorAInfo = "Carrots: Watered 10 days ago<br/><br/>Radish: None";
-var sectorBInfo = "Watermelon: Watered 10 days ago<br/><br/>Eggplant: None";
-var sectorCInfo = "Olives: Watered 10 days ago<br/><br/>Onion: None";
+var sectorAInfo = "Olives 1: Watered 10 hours ago<br/><br/>Celery 1: Watered 10 hours ago";
+var sectorBInfo = "Olives 2: Watered 10 hours ago<br/><br/>Celery 2: Watered 10 hours ago";
+var sectorCInfo = "No crops here!";
 
 // Create the tooltips only when document ready
 $(document).ready(function()

@@ -3,7 +3,7 @@ var text = '{ "bulletins" : [' +
 
 var bulletinsVar = JSON.parse(text);
 
-var userAuthorized = false;
+var userAuthorized = true;
 
 $(document).ready(function(){
     for (var i=bulletinsVar.bulletins.length-1; i >= 0; i--) {
