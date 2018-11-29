@@ -3,7 +3,7 @@ var text = '{ "bulletins" : [' +
 
 var bulletinsVar = JSON.parse(text);
 
-var userAuthorized = true;
+var userAuthorized = false;
 
 $(document).ready(function(){
     for (var i=bulletinsVar.bulletins.length-1; i >= 0; i--) {
@@ -18,7 +18,6 @@ $(document).ready(function(){
     }
 
     $('#addBulletin').click(function(e) {
-        console.log("ASSERT");
         if (userAuthorized == true) {
             var newTitle = document.getElementById("newBulletinTitle").value;
             var newBody = document.getElementById("newBulletinBody").value;
