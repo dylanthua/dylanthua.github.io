@@ -21,6 +21,9 @@ $(document).ready(function()
             $("#harvestCrops").append("No crops for harvests!<br><br>");
           }
 
+          $("#targetModal").empty();
+          $("#targetModal").append(targetName);
+
           $("#listOfNames").empty();
           var someoneAround = false;
           for (var i=0; i<calendarVar.signups.length; i++) {

@@ -239,14 +239,14 @@ body {font-family: Verdana, sans-serif;}
 
 .weekdays li {
     display: inline-block;
-    width: 13.6%;
+    width: 10.6%;
     color: #666;
     text-align: center;
 }
 
 /* Days (1-31) */
 .days {
-    padding: 10px 0;
+    padding: 5px 0;
     background: #eee;
     margin: 0;
 }
@@ -254,34 +254,38 @@ body {font-family: Verdana, sans-serif;}
 .days li {
     list-style-type: none;
     display: inline-block;
-    width: 13.6%;
+    width: 12.6%;
     text-align: center;
     margin-bottom: 5px;
-    font-size:40px;
+    font-size:30px;
     color: #777;
     border-style: solid;
     border-color: rgb(112, 112, 112); 
 }
 
+/* The current day */
 .days .active1 {
-    width: 13.6%;
+    width: 12.6%;
     margin-bottom: 5px;
     display: inline-block;
     border-color: rgb(0, 182, 9);
     border-style: solid;
 }
 
+/* Harvest Day */
 .days .active2 {
-    width: 13.6%;
+    width: 12.6%;
     margin-bottom: 5px;
     display: inline-block;
     background: #62cdff;
 }
 
-.days li .active3 {
-    padding: 5px;
-    background: #8f1616;
-    color: white !important
+/* People can help */
+.days .active3 {
+    width: 12.6%;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: black !important
 }
 
 .tool-tip-size{
