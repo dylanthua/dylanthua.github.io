@@ -18,6 +18,7 @@ $(document).ready(function(){
     }
 
     $('#addBulletin').click(function(e) {
+        console.log("Click!");
         if (userAuthorized == true) {
             var newTitle = document.getElementById("newBulletinTitle").value;
             var newBody = document.getElementById("newBulletinBody").value;
