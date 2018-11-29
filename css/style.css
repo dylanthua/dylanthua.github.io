@@ -260,7 +260,7 @@ body {font-family: Verdana, sans-serif;}
     font-size:40px;
     color: #777;
     border-style: solid;
-    border-color: rgb(112, 112, 112)
+    border-color: rgb(112, 112, 112); 
 }
 
 .days li .active1 {
