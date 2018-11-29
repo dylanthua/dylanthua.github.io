@@ -263,14 +263,18 @@ body {font-family: Verdana, sans-serif;}
     border-color: rgb(112, 112, 112); 
 }
 
-.days li .active1 {
-    padding: 5px;
+.days .active1 {
+    width: 13.6%;
+    margin-bottom: 5px;
+    display: inline-block;
     border-color: rgb(0, 182, 9);
     border-style: solid;
 }
 
-.days li .active2 {
-    padding: 5px;
+.days .active2 {
+    width: 13.6%;
+    margin-bottom: 5px;
+    display: inline-block;
     background: #62cdff;
 }
 

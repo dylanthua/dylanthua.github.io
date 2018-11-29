@@ -1,5 +1,5 @@
-var sectorAInfo = "Olives 1: Watered 10 hours ago<br/><br/>Celery 1: Watered 10 hours ago";
-var sectorBInfo = "Olives 2: Watered 10 hours ago<br/><br/>Celery 2: Watered 10 hours ago";
+var sectorAInfo = "Olives 1:<br>Watered 10 hours ago<br>Harvest in 20 days<br/><br/>Celery 1:<br>Watered 10 hours ago<br>Harvest in 20 days";
+var sectorBInfo = "Olives 2:<br>Watered 10 hours ago<br>Harvest in 20 days<br/><br/>Celery 2:<br>Watered 10 hours ago<br>Harvest in 20 days";
 var sectorCInfo = "No crops here!";
 
 // Create the tooltips only when document ready
