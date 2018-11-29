@@ -50,5 +50,6 @@ $(document).ready(function()
         toBePushed.Date = newDate;
         toBePushed.Time = newTime;
         calendarVar.signups.push(toBePushed);
+        
     });
 });
